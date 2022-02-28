@@ -92,3 +92,37 @@
 // }
 // var result = recursive(3);
 // console.log(result);
+
+//Fibonacci Series in Recursive way
+//[0,1,1,2,3,5,8]
+// function fibonacci(n){
+//     if(n==0){
+//         return [0]
+//     }
+//     else if(n==1){
+//         return [0, 1]
+//     }
+//     else{
+//         var fibo = fibonacci(n-1);
+//         var nextElement = fibo[n-1]+fibo[n-2];
+//         fibo.push(nextElement);
+//         return fibo;
+
+//     }
+// }
+// var result = fibonacci(10);
+// console.log(result);
+
+
+//Check whether a number is prime number or not
+// function isPrime(num){
+//     for(var i=2; i<num; i++){
+//         if(num%i == 0){
+//            return "Your number is not a prime number";
+//         }
+
+//     }
+//     return "Your number is prime number";
+// }
+// var primeOrNot = isPrime(10);
+// console.log(primeOrNot);
